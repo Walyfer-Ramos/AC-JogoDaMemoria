@@ -1,3 +1,4 @@
+
 using System.IO;
 using System.Text;
 using TMPro;
@@ -12,13 +13,19 @@ public class CadastrarJogador : MonoBehaviour
     public Button botaoContinue;
 
     private string caminhoCSV;
+    private string caminhoTXT;
+    private string caminhoBackupTXT;
 
     void Start()
     {
-        // Define o caminho do arquivo CSV
         caminhoCSV = Path.Combine(
             Application.persistentDataPath,
             "jogadores.csv"
+        );
+
+        caminhoTXT = Path.Combine(
+            Application.persistentDataPath,
+            "jogadores.txt"
         );
 
         botaoContinue.interactable = false;
@@ -35,7 +42,6 @@ public class CadastrarJogador : MonoBehaviour
         string email = inputEmail.text.Trim();
         string telefone = inputTelefone.text.Trim();
 
-        // Verifica se todos os campos estão preenchidos
         if (string.IsNullOrWhiteSpace(nome) ||
             string.IsNullOrWhiteSpace(email) ||
             string.IsNullOrWhiteSpace(telefone))
@@ -44,43 +50,42 @@ public class CadastrarJogador : MonoBehaviour
             return;
         }
 
-        // Mantém os dados salvos no PlayerPrefs
         PlayerPrefs.SetString("NomeJogador", nome);
         PlayerPrefs.SetString("EmailJogador", email);
         PlayerPrefs.SetString("TelefoneJogador", telefone);
         PlayerPrefs.Save();
 
-        // Salva os dados no arquivo CSV
         SalvarNoCSV(nome, email, telefone);
+        SalvarNoTXT(nome, email, telefone);
 
-        Debug.Log("Cadastro salvo: " + nome + " / " + email + " / " + telefone);
+        Debug.Log("Cadastro salvo nos dois documentos!");
+
     }
+
+
 
     void SalvarNoCSV(string nome, string email, string telefone)
     {
         try
         {
-            // Cria a pasta, caso seja necessário
-            string pasta = Path.GetDirectoryName(caminhoCSV);
-            Directory.CreateDirectory(pasta);
+            Directory.CreateDirectory(Application.persistentDataPath);
 
-            // Cria o cabeçalho se o arquivo ainda não existir
             if (!File.Exists(caminhoCSV))
             {
-                string cabecalho = "Nome;Email;Telefone" + System.Environment.NewLine;
+                string cabecalho = "Nome;Email;Telefone" +
+                    System.Environment.NewLine;
+
                 File.WriteAllText(caminhoCSV, cabecalho, Encoding.UTF8);
             }
 
-            // Prepara os campos para evitar problemas com ;, aspas e quebras de linha
             string linha = FormatarCSV(nome) + ";" +
                            FormatarCSV(email) + ";" +
                            FormatarCSV(telefone) +
                            System.Environment.NewLine;
 
-            // Acrescenta o novo cadastro sem apagar os anteriores
             File.AppendAllText(caminhoCSV, linha, Encoding.UTF8);
 
-            Debug.Log("Cadastro adicionado ao CSV: " + caminhoCSV);
+            Debug.Log("CSV salvo: " + caminhoCSV);
         }
         catch (System.Exception e)
         {
@@ -88,12 +93,41 @@ public class CadastrarJogador : MonoBehaviour
         }
     }
 
+
+
+    void SalvarNoTXT(string nome, string email, string telefone)
+    {
+        try
+        {
+            string registro =
+                "============================\n" +
+                "CADASTRO DE JOGADOR\n" +
+                "============================\n" +
+                "Nome: " + nome + "\n" +
+                "Email: " + email + "\n" +
+                "Telefone: " + telefone + "\n\n";
+
+            File.AppendAllText(caminhoTXT, registro, Encoding.UTF8);
+
+            Debug.Log("TXT salvo: " + caminhoTXT);
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError("Erro ao salvar TXT: " + e.Message);
+        }
+    }
+
+
+
+
     string FormatarCSV(string valor)
     {
         valor = valor.Replace("\"", "\"\"");
+
         return "\"" + valor.Replace("\r\n", "\n")
                            .Replace("\r", "\n") + "\"";
     }
+
 
     void VerificarCampo()
     {

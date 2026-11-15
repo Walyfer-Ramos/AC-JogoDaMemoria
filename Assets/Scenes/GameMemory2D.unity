@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -1341,7 +1341,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -2186,7 +2186,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -2537,7 +2537,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -2670,7 +2670,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -3159,7 +3159,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -3292,7 +3292,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -3979,7 +3979,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -5510,7 +5510,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -5643,7 +5643,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -5776,7 +5776,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -5909,7 +5909,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -6453,7 +6453,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -7071,7 +7071,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -8314,7 +8314,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -8584,7 +8584,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -8808,7 +8808,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -9078,7 +9078,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -9211,7 +9211,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -9477,7 +9477,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -9847,7 +9847,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -10666,7 +10666,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -10936,7 +10936,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -12110,7 +12110,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -12243,7 +12243,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -12376,7 +12376,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -12709,7 +12709,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -12842,7 +12842,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -13880,7 +13880,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -14013,7 +14013,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -14841,7 +14841,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -14974,7 +14974,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -15431,7 +15431,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -15792,7 +15792,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -15925,7 +15925,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -16338,7 +16338,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -16932,7 +16932,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
@@ -17202,7 +17202,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366085588}
         m_TargetAssemblyTypeName: TecladoVirtual, Assembly-CSharp
         m_MethodName: AddBotao
         m_Mode: 5
